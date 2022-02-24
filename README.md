@@ -11,7 +11,7 @@
 - Oracle Java docs
   - https://docs.oracle.com/en/java/javase/11/docs/api
 - Enthuware mock exam provider
-  - https://enthuware.com/
+  - https://enthuware.com
  
 ## Additional info
 
