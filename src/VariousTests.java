@@ -11,7 +11,7 @@ import java.lang.annotation.*;
 @SuppressWarnings({"static", "fallthrough"})
 public class VariousTests {
 	public static void main(String[] args) {
-		if (false) { // Integer caching, -128 to 127 is cached
+		if (false) { // Integer caching, -128 to 127 are cached
   			Integer x1 = Integer.valueOf(127); 
   			Integer x2 = Integer.valueOf(127);
   			Integer x3 = Integer.valueOf(128); 
@@ -41,7 +41,7 @@ public class VariousTests {
 			// ((B)x).test(); // legal
 			// ((A)x).test(); // illegal
 			// B.test(); // legal
-			x.test(); // legal
+			// x.test(); // legal
 		}
 		if (false) { // LinkedHashMap behave like an ordered cache store
 			var x = new LinkedHashMap<String, Integer>(3);
@@ -586,6 +586,7 @@ class B {
 }
 
 class C extends B implements A {
+	// public void test() {}
 }
 
 enum D {
@@ -611,7 +612,7 @@ interface Papa {
 }
 
 interface Daughter extends Papa {
-	//public void shit();  // will compile both ways because default is allows overriding
+	//public void shit(); // will compile both ways because default allows overriding
 }
 
 

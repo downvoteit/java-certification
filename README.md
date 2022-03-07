@@ -6,7 +6,7 @@
 
 ## Learning resources
 
-- OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide 1st Ed
+- OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide 1st Edition
   - By Boyarsky J., Selikoff S.
 - Oracle Java docs
   - https://docs.oracle.com/en/java/javase/11/docs/api
@@ -15,6 +15,6 @@
  
 ## Additional info
 
-- Made in plain Windows notepad
-- Compiled and ran in Git bash commandline or using SourceCodeFileWatcher utility
-- Intellij was used to refactor SourceCodeFileWatcher
+- Written in plain Windows notepad
+- Compiled and ran in Git bash commandline or using SourceCodeFileWatcher.java utility
+- Intellij was used to refactor SourceCodeFileWatcher.java
