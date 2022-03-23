@@ -16,5 +16,5 @@
 ## Additional info
 
 - Written in plain Windows notepad
-- Compiled and ran in Git bash commandline or using SourceCodeFileWatcher.java utility
-- Intellij was used to refactor SourceCodeFileWatcher.java
+- Compiled and ran in Git bash commandline or using [SourceCodeFileWatcher.java](src/SourceCodeFileWatcher.java) utility
+- Intellij was used to refactor [SourceCodeFileWatcher.java](src/SourceCodeFileWatcher.java)
