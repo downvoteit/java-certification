@@ -13,7 +13,7 @@
 - Enthuware mock exam provider
   - https://enthuware.com
  
-## Additional info
+## Additional information
 
 - Written in plain Windows notepad
 - Compiled and ran in Git bash commandline or using [SourceCodeFileWatcher.java](src/SourceCodeFileWatcher.java) utility
