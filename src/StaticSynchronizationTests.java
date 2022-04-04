@@ -16,7 +16,7 @@ public class StaticSynchronizationTests {
 			System.out.println(StaticSynchronizationTests.count);
 			x.shutdown();
 		}
-		if (!false) { // Reentract locking
+		if (!false) { // Reentrant locking
 			ExecutorService x = Executors.newFixedThreadPool(32);
 			System.out.println(StaticSynchronizationTests.count);
 			for (int y = 0; y <= 64; y++) {
